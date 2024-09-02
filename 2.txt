@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+
+public class MyClass {
+  public static void main(String args[]) {
+    ArrayList myFamilyAges = new ArrayList();
+    myFamilyAges.add(37);
+    myFamilyAges.add(57);
+    myFamilyAges.add(69);
+    
+   System.out.println(myFamilyAges.get(2));
+  }
+}
