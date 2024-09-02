@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class MyClass {
+  public static void main(String args[]) {
+    ArrayList myFamilyAges = new ArrayList();
+    myFamilyAges.add(37);
+    myFamilyAges.add(57);
+    myFamilyAges.add(69);
+    myFamilyAges.add(1);
+    
+    myFamilyAges.add(1, 25);
+    
+    myFamilyAges.remove(0);
+    
+    
+    
+    System.out.println(myFamilyAges.get(0));
+    System.out.println(myFamilyAges.size());
+    System.out.println(myFamilyAges.toString());
+    
+  }
+}
