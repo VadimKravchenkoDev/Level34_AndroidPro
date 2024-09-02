@@ -4,9 +4,19 @@ public class MyClass {
   public static void main(String args[]) {
    
    ArrayList<String> fruits = new ArrayList<>(Arrays.asList("apple", "orange", "melon", "watermelon"));
+   System.out.println(fruits.toString());
+   fruits.add(fruits.size(), "banana");
+   fruits.add(0, "ananas");
+   fruits.add(3, "qiwi");
+   System.out.println(fruits.toString());
+   fruits.remove(fruits.size()-1);
+   fruits.remove(0);
+   fruits.remove(1);
+   fruits.size();
    
    
    System.out.println(fruits.toString());
+   System.out.println(fruits.size());
    
     
   }
